@@ -7,7 +7,7 @@ from aiogram.types import BotCommand, Message
 from aiohttp import web  # Добавляем веб-сервер
 
 # --- ВАШ ТОКЕН ---
-TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"
+TOKEN = "7709045047:AAFDz7dbJmlF1TzCcYYAV1yBPjP8nMowdG4"
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)
@@ -81,4 +81,5 @@ if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
+
         print("Бот остановлен")
